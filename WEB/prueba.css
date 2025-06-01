@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    background-color: #fdf6ec;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/bb/ComoDiceElDicho.jpg);
+    background-repeat: repeat;
+    background-size: 150px;
+    color: #5c4033;
+  }
+  
+  header {
+    background-color: #f7d9c4;
+    text-align: center;
+    padding: 2em 1em 1em;
+    border-bottom: 3px solid #d0a97a;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #5c4033;
+  }
+  
+  .foto-tomas {
+    width: 180px;
+    margin-top: 1em;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2em;
+  }
+  
+  .section {
+    background-color: #fff8f0;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #7a5c4b;
+  }
+  
+  ul {
+    padding-left: 1em;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-top: 1em;
+    display: block;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 0.3em;
+    border: 1px solid #d9bfa9;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  button {
+    background-color: #c08b5c;
+    color: white;
+    border: none;
+    padding: 0.7em 1em;
+    font-size: 1em;
+    border-radius: 6px;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a66b3c;
+  }
+  
+  #dicho-dia {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #6e4b3a;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+  }
+  .boton-actualizar {
+    background-color: #c08b5c;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 6px;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  .boton-actualizar:hover {
+    background-color: #a66b3c;
+  }
+  
+  .carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-size: 1.2em;
+    background-color: #fff1e6;
+    padding: 1em;
+    border-radius: 8px;
+  }
+  
+  .carrusel button {
+    background-color: #f3c9a9;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1.4em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carrusel button:hover {
+    background-color: #e0b08c;
+  }
+  
+  #item-menu {
+    min-width: 250px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
