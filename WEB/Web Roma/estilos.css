@@ -1,0 +1,84 @@
+body{
+    background-color: #ffd4e3;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+.head{
+    display: flex;
+}
+.menu{
+    background-color: #F6BDD1;
+    
+}
+.titulo{
+    float: left;
+    color: #F6BDD1;
+    background-color:#1E152A;
+    justify-content: center;
+    align-items: center;
+}
+.subpaginas{
+     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpaginas li{
+    color: #fff;
+    display: inline;
+}
+
+.imagenprincipal{
+    width: 50%;
+    float: none;
+
+}
+.imagenprincipal img{
+    width: 70%;
+    height: auto;
+    display: block;
+    padding-left: 10%;
+}
+.contenedor{
+    display: flex;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+.derecha{
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;     
+}
+.derecha h1 {
+    margin: 10px 0;
+}
+
+.derecha button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.traka{
+    background-color:#1E152A ;
+  color: #ffd4e3;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;   
+}
